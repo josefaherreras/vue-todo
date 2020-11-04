@@ -1,7 +1,7 @@
-#VueJS
-#Aplicación de TODO 
+###VueJS
+###Aplicación de TODO 
 
-#Componentes básicos de vueJS:
+###Componentes básicos de vueJS:
 -Template
 -Parametros
 -Datos
@@ -10,6 +10,6 @@
 -Condicionales
  -Eventos
 
-#Librería para generar Id Aleatorios.
+###Librería para generar Id Aleatorios.
 npm install vue-uuid
   
