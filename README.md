@@ -1,24 +1,15 @@
-# vue-todos
+#VueJS
+#Aplicación de TODO 
 
-## Project setup
-```
-npm install
-```
+#Componentes básicos de vueJS:
+-Template
+-Parametros
+-Datos
+-Metodos
+-Directivas 
+-Condicionales
+ -Eventos
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#Librería para generar Id Aleatorios.
+npm install vue-uuid
+  
