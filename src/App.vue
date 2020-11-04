@@ -4,7 +4,7 @@
       <Search v-on:query-change="querySearch" />
     </div>
     <div id="main-container">
-      <h2>Todos</h2>
+      <h2>To Do - Organizate con las tareas </h2>
       <TodoAdd v-on:add-todo="addTodo"/>
       <Todos v-bind:todoslist="copyTodos" v-on:delete-todo="deleteTodo" />
     </div>
@@ -56,12 +56,12 @@ export default {
        },
        {
          id: 2,
-         title: 'jugar Xbox',
+         title: 'Jugar Super Mario',
          completed: false
        },
        {
          id: 3,
-         title: 'Terminar tutorial',
+         title: 'Estudiar VueJS',
          completed: true
        }
       ],
@@ -79,15 +79,19 @@ export default {
     box-sizing: border-box;
   }
   body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     padding: 0;
     margin: 0;
+    background-color: whitesmoke;
   }
   #main-container{
-    border: solid 1px #ccc;
+    border: transparent;
+    border-radius: 10px;
     width: 600px;
     margin: 100px auto;
+    padding: 30px 20px;
+    box-shadow: 4px 4px 35px 0px rgba(0,0,0,0.75);
   }
   #header{
     background: black;
