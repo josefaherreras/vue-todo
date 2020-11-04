@@ -22,7 +22,12 @@ export default {
   components: {
     Todos, TodoAdd, Search
   },
-  
+  methods:{
+    deleteTodo(id){
+      this.todos = this.todos.filter(todo => todo.id != id);
+      this.copyTodos= [... this.todos]
+    }
+  },
   data(){
     return {
       todos: [
