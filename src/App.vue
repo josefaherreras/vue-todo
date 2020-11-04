@@ -25,6 +25,20 @@ export default {
     deleteTodo(id){
       this.todos = this.todos.filter(todo => todo.id != id);
       this.copyTodos= [... this.todos]
+    },
+    addTodo(todo){
+      this.todos.push(todo);
+      this.copyTodos = [... this.todos];
+    },
+    querySearch(query){
+      if(query.trim() === ''){
+        this.copyTodos = [... this.todos];
+      }else{
+        const temp = this.todos.filter(todo => {
+          return todo.title.includes(query);
+        });
+        this.copyTodos = [... temp];
+      }
     }
   },
   data(){
