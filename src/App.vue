@@ -3,7 +3,6 @@
     <div id="header">
       <Search v-on:query-change="querySearch" />
     </div>
-
     <div id="main-container">
       <h2>Todos</h2>
       <TodoAdd v-on:add-todo="addTodo"/>
